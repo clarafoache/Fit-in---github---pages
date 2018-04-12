@@ -136,6 +136,33 @@
 		margin-bottom: 1em;
 	}
 
+	.arrow{
+		font-size:3em; 
+		color: white;
+		
+	}
+
+	#footer{
+
+	background-color: #000000;
+	color: #FFFFFF;
+	padding-top: 2em;
+	padding-bottom: 2em;
+
+	}
+
+	#footer a{
+		color:#FFFFFF;
+		text-decoration: none;
+		font-size: 24px;
+
+	}
+
+	#footer a:hover { 
+		color: #F55B63;
+		text-decoration: underline;
+	}
+
 
 <!-- Comment ca marche -->
 
