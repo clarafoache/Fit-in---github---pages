@@ -1,4 +1,4 @@
-<!-- General -->
+
 	body{
 		
 		font-family: "roboto", sans-serif ; 
@@ -30,8 +30,6 @@
 	.spacer{
 	height: 4em;
 	}
-
-<!-- Navbar -->
 
 	.btnrose{
 		color: white;
@@ -73,13 +71,11 @@
 	padding-top: 20px;
 	}
 
-<!-- Banner -->
 
 	#banner{
-		background-image: url(../images/accueil.jpg);
+		background-image: url(../Images/accueil.jpg);
 		height: 550px;
 		background-size: cover ;
-		border: 2px solid red;
 		padding-top: 100px; 
 		padding: 50px; 
 		text-align: center;
