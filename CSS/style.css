@@ -15,7 +15,7 @@
 		font-family: "muli", sans-serif;
 		font-weight: bold;
 		font-size: 40px;
-		padding-bottom: 50px;
+		padding-bottom: 10px;
 		text-align: center;
 	}
 
@@ -79,7 +79,7 @@
 		padding-top: 100px; 
 		padding: 50px; 
 		text-align: center;
-		text-shadow:2px 2px 5px rgba(0,0,0,0,5);
+		text-shadow:2px 2px 5px rgba(0,0,0,0.1);
 	}
 
 	#banner h1{
@@ -100,8 +100,6 @@
 		background: rgba(255,255,255,0);
 		padding-left: 300px;
 		padding-right:250px;
-
-
 	}
 
 	.form-control{
@@ -109,7 +107,14 @@
 		background-color: rgba(255,255,255,0);
 	}
 
+	.form-control::placeholder { 
+	font-family: "muli", sans-serif;
+    color: white;
+    opacity: 1; 
+	}
+
 	#basic-addon1{
+		color: white;
 		background-color: rgba(255,255,255,0);
 		border: none;
 		font-size: 16px;
@@ -162,6 +167,14 @@
 		color: #F55B63;
 		text-decoration: underline;
 	}
+
+	.line{
+		font-size: 32px;
+		color:black ;
+		border: none;
+		padding-bottom: 1em;
+	}
+
 
 
 <!-- Comment ca marche -->
