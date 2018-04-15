@@ -71,10 +71,9 @@
 	padding-top: 20px;
 	}
 
-
 	#banner{
-		background-image: url(../Images/accueil.jpg);
-		height: 550px;
+		background-image: url(../Images/accueil.png);
+		height: 700px;
 		background-size: cover ;
 		padding-top: 100px; 
 		padding: 50px; 
@@ -141,10 +140,9 @@
 		margin-bottom: 1em;
 	}
 
-	.arrow{
-		font-size:3em; 
-		color: white;
-		
+	#flechebas {
+		font-size:40px; 
+		color: #FFFFFF;	
 	}
 
 	#footer{
@@ -175,10 +173,73 @@
 		padding-bottom: 1em;
 	}
 
+	#contacteznous{
+		background-image: url(../images/pagecontact.png);
+		background-size: cover;
+		height: 600px;
+	}
+
+	#contacteznous h2{
+		color: #F55B63;
+		font-family: "muli", sans-serif;
+		font-weight: normal;
+		font-size: 40px;
+		text-align: center;
+	}
+
+	.linecontact{
+		font-size: 32px;
+		color:#F55B63;
+		border: none;
+		
+	}
+
+	.smallspace{
+		height: 10px;
+	}
+
+	.btncontact{
+		color: white;
+		background-color: black;
+		border: none;
+	}
+
+	#mailbas{
+		color: black;
+		background-color: rgba(0,0,0,0);
+		border-top: none;
+		border-left: none;
+		border-right: none;
+		border-bottom-color: black;
+	}
+
+	#mailbas::placeholder { 
+	font-family: "muli", sans-serif;
+    color: black;
+    opacity: 1; 
+	}
+
+	#basic-addon2{
+		color: black;
+		background-color: rgba(0,0,0,0);
+		border: none;
+		font-size: 16px;
+	}
+
+	.rsblack {
+		color:black;
+		text-decoration: none;
+		font-size: 24px;
+	}
+
+	#imagesep{
+		background-image: url(../Images/jupepaillettes.jpeg);
+		height: 150px;
+		background-size: cover ;
+	}
 
 
-<!-- Comment ca marche -->
 
-<!-- A propos de Fit'in -->
+
 
 <!-- Contactez nous -->
